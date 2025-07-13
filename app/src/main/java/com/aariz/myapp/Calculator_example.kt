@@ -19,6 +19,8 @@ class Calculator_example : AppCompatActivity() {
         calci.display1.text = sharedPrefs.getString("EXPRESSION", "0")
         calci.display2.text = sharedPrefs.getString("RESULT", "0")
 
+        // TODO I will add Scientific operations here
+
         // Digits
         calci.btn0.setOnClickListener { append("0") }
         calci.btn1.setOnClickListener { append("1") }
